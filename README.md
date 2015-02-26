@@ -14,15 +14,19 @@ Son développement a été réalisé par PWC pour le Secrétariat Général pour
 > Cette démarche vise à développer des pratiques numériques en réponse aux préoccupations pédagogiques des enseignants de votre collège. Elle s’appuie sur la mise en place d’une dynamique collective au sein de la communauté enseignante pour faire progressivement évoluer les comportements en tirant parti des ressources et équipements numériques existants.
 
 
+
 ## Pré-requis :
 Ce plugin est conçu pour être intégré dans l'environnement Cocon, qui s'appuie sur :
+
 1. la distribution Elgg / ESOPE
 2. le plugin theme_cocon
 
 Il n'est pas prévu pour être utilisé hors de cet environnement.
 
 
+
 ## Installation
+
 1. Ce plugin nécessite une base de données indépendante de celle d'Elgg : 
 	1. Créer une base de données, du même nom que celle d'Elgg, avec la terminaison "_methode", par ex. DB_NAME => DB_NAME_methode
 	2. Importer le script SQL dans la nouvelle base : script disponible dans cocon_methode/vendors/cocon_methode/sql/base.sql
@@ -38,6 +42,7 @@ Il n'est pas prévu pour être utilisé hors de cet environnement.
 		- modifiable par le membre, 
 		- afficher comme tag
 5. Configurer le plugin "Thème Cocon" avec les valeurs souhaitées pour chacun des 3 champs
+
 
 
 ## Utilisation
