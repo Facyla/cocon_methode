@@ -32,11 +32,11 @@ Il n'est pas prévu pour être utilisé hors de cet environnement.
 	2. Importer le script SQL dans la nouvelle base : script disponible dans cocon_methode/vendors/cocon_methode/sql/base.sql
 2. Vérifier que le serveur peut bien lire et écrire dans le dossier mod/cocon_methode/vendors/cocon_methode/_tmp/ (fichiers temporaires)
 3. Activer le plugin "Méthode" + Vérifier que le plugin "Thème Cocon" est activé
-4. Créer, si ce n'est déjà fait, les champs de profil suivants :
-	1. cocon_etablissement (Type : Etablissement)
-	2. cocon_fonction (Type : Fonction)
-	3. cocon_discipline (Type : Discipline)
-	- Définir pour chacun les paramètres :
+4. Créer (via profile_manager) les champs de profil suivants :
+	- cocon_etablissement (Type : Etablissement)
+	- cocon_fonction (Type : Fonction)
+	- cocon_discipline (Type : Discipline)
+	- Puis définir pour chacun les paramètres :
 		- montrer sur le formulaire d'inscription, 
 		- obligatoire, 
 		- modifiable par le membre, 
