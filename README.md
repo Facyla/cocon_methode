@@ -50,3 +50,7 @@ L'accès aux fonctionnalités s'effectue via l'adresse ADRESSE_DU_SITE/**methode
 
 
 
+## Notes techniques
+Le dossier @tech_doc liste les fichiers modifiés pour l'intégration en tant que plugin Elgg.
+
+
